@@ -1,0 +1,28 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES7"],
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "_assets/*": ["./src/assets/*"],
+      "_hooks/*": ["./src/hooks/*"],
+      "_navigations/*": ["./src/navigations/*"],
+      "_scenes/*": ["./src/scenes/*"],
+      "_components/*": ["./src/components/*"],
+    }
+  }
+}

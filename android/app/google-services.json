@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "20520018280",
+    "project_id": "alarm-app-bf7c5",
+    "storage_bucket": "alarm-app-bf7c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20520018280:android:bfa167c939db5b8ab136dd",
+        "android_client_info": {
+          "package_name": "com.reminderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4cccw5v2PkBjFr0jm-GbbXfBAY9jwl5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
